@@ -1,5 +1,5 @@
 # BlankSrl-6
-The srl-6 without all the RS3 functions,  So makes for a perfect base for any RSPS<br>
+The srl-6 include without all the RS3 functions,  So makes for a perfect base for any RSPS<br>
 To use this include, download and extract it to your simba/includes directory and rename it to  BlankSrl-6 or the rsps's name your using and adjust the line below to the new name.<br>
 Then add this to the top  of your script. {$i BlankSrl-6/srl.simba} <br>
 All though,if you want to add more functionality, you will have to create new simba files,procedures, and functions. <br>
