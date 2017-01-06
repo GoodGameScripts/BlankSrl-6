@@ -1,6 +1,7 @@
 # BlankSrl-6
 The srl-6 without all the pre-built RS functions,  So makes for a perect base for any RSPS<br>
-This is the base to my runique include, so use this look in the scripts folder at test.simba to see on how to inlcude this. <br>
+To use this include, download and  extract it in your simba/includes directory and rename it to just BlankSrl-6 <br>
+Then add this to the top  of the script you want to use it on. {$i BlankSrl-6/srl.simba} <br>
 All though,if you want to add more functionality you will have to create a new simba file and add it to srl.simba file.<br>
 Like so<br>
 Current srl.simba<br>
@@ -24,6 +25,6 @@ begin<br>
      writeln('Setting up include');<br>
 end;<br>
 
-To add a file to srl.simba add example line below all the other include onece files and just repeat as needed<br>
+To add a file to srl.simba add the example line below, below all the other include once files and just repeat as needed<br>
 <strong>{$include_once location/example.simba}</strong> <br>
 
