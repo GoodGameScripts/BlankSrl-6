@@ -17,11 +17,12 @@ Like so<br>
 {$include_once utilities/types/types.simba}<br>
 {$include_once utilities/color.simba}<br>
 
-<strong>{$include_once location/example.simba} -add this line adjust to the files location and name, repeat as needed </strong> <br>
+<strong>{$include_once location/example.simba} -add this line  and adjust to the files location and name, repeat as needed </strong> <br>
 
-procedure SetupRSPSinclude;<br>
+procedure SetupRSPSinclude;<br> call this in the main loop of your script.
 begin<br>
      writeln('Setting up include');<br>
 end;<br>
+
 
 
