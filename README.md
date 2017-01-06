@@ -19,7 +19,7 @@ Like so<br>
 
 <strong>{$include_once location/example.simba} -add this line  and adjust to the files location and name, repeat as needed </strong> <br>
 
-procedure SetupRSPSinclude;<br> call this in the main loop of your script.
+procedure SetupRSPSinclude; -- call this in the main loop of your script.<br>
 begin<br>
      writeln('Setting up include');<br>
 end;<br>
