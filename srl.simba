@@ -8,7 +8,7 @@ SRL library isn't available to you.
 
 *)
 
-{$DEFINE $DEFINE SRL6}
+{$DEFINE SRL6} 
 
 {$include_once utilities/wrappers.simba}
 {$include_once utilities/time.simba}
