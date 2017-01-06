@@ -1,0 +1,6 @@
+program Test;
+{$i BlankSrl-6/srl.simba}
+begin
+SetupRSPSinclude;
+writeln('working');
+end.
