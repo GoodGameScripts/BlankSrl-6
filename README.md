@@ -4,7 +4,6 @@ To use this include, download and  extract it in your simba/includes directory a
 Then add this to the top  of the script you want to use it on. {$i BlankSrl-6/srl.simba} <br>
 All though,if you want to add more functionality, you will have to create  new simba files and add them to the srl.simba file.<br>
 Like so<br>
-Current srl.simba<br>
 {$DEFINE $DEFINE SRL6}<br>
 
 {$include_once utilities/wrappers.simba}<br>
@@ -18,13 +17,11 @@ Current srl.simba<br>
 {$include_once utilities/types/types.simba}<br>
 {$include_once utilities/color.simba}<br>
 
-<strong>{$include_once location/example.simba} -add this line </strong> <br>
+<strong>{$include_once location/example.simba} -add this line adjust to the files location and name, repeat as needed </strong> <br>
 
 procedure SetupRSPSinclude;<br>
 begin<br>
      writeln('Setting up include');<br>
 end;<br>
 
-To add a file to srl.simba add the example line below, below all the other include once files and just repeat as needed<br>
-<strong>{$include_once location/example.simba}</strong> <br>
 
