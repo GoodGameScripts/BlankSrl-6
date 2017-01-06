@@ -5,7 +5,7 @@ Then include this in your script. {$i BlankSrl-6/srl.simba} <br>
 All though,if you want to add more functionality, you will have to create new simba files,procedures, and functions. <br>
 To add a file to your include, follow the steps below. <br>
 srl.simba<br>
-{$DEFINE $DEFINE SRL6}<br>
+{$DEFINE SRL6} <br>
 
 {$include_once utilities/wrappers.simba}<br>
 {$include_once utilities/time.simba}<br>
